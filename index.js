@@ -4,3 +4,7 @@ function lowerCaseDrivers(arr) {
 }
 
 // const map1 = array1.map(x => x * 2);
+
+// var doubles = numbers.map(function(num) {
+//  return num * 2;
+// });
