@@ -1,6 +1,6 @@
 // Code your solution in this file.
 function lowerCaseDrivers(drivers) {
-  const newDrivers = drivers.map( function(driver) {return driver.toLowerCase;} );
+  const newDrivers = drivers.map( function(driver) {return driver.toLowerCase();} );
   return newDrivers;
 }
 
@@ -9,3 +9,5 @@ function lowerCaseDrivers(drivers) {
 // var doubles = numbers.map(function(num) {
 //  return num * 2;
 // });
+
+
