@@ -19,15 +19,9 @@ function nameToAttributes(drivers) {
 
 function attributesToPhrase(drivers) {
   return drivers.map ( function(driver) {
-    
+    //const name = driver.split(" ")[0];
+    const name = driver.name;
+    const town = driver.hometown;
+    return `${name} is from ${town}`;
   });
 }
-
-    it('converts to list saying the name and where each individual is from', () => {
-      const drivers = [
-        { name: 'Bobby', hometown: 'Pittsburgh' },
-        { name: 'Sammy', hometown: 'New York' },
-        { name: 'Sally', hometown: 'Cleveland' },
-        { name: 'Annette', hometown: 'Los Angeles' },
-        { name: 'Bobby', hometown: 'Tampa Bay' }
-      ];
