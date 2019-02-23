@@ -1,6 +1,7 @@
 // Code your solution in this file.
 function lowerCaseDrivers(drivers) {
-  drivers.map( function(driver) {return driver.toLowerCase;} );
+  const newDrivers = drivers.map( function(driver) {return driver.toLowerCase;} );
+  return newDrivers;
 }
 
 // const map1 = array1.map(x => x * 2);
